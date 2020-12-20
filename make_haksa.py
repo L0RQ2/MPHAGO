@@ -17,5 +17,5 @@ for i in range(0, len(data_split)):
         day+=1
 data=" ".join(data_split)
 print(data)
-f = open("haksa/haksa", 'w')
+f = open("/workspace/MMBOT/haksa/haksa", 'w')
 f.write(data)
